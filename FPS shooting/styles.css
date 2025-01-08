@@ -29,7 +29,7 @@ canvas {
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #cc7722;
+    background: radial-gradient(circle, #ff8c19 0%, #ff4500 100%);
     border-radius: 50%;
     box-shadow: 0 0 15px 5px orange;
 }
@@ -38,7 +38,7 @@ canvas {
     position: absolute;
     width: 4px;
     height: 50px;
-    background: linear-gradient(to bottom, yellow, orange);
+    background: linear-gradient(to bottom, yellow, orange, red);
     border-radius: 2px;
     transform: translateY(-40px);
 }
