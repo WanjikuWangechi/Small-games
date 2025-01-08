@@ -8,11 +8,11 @@
 }
 
 body{
-    background-color: #db291d;
+    background-color: #37748b;
 }
 
 .wrapper{
-    background-color: #c26f6f75;
+    background-color: #fff;
     height: 600px;
     width: 600px;
     position: absolute;
@@ -82,7 +82,7 @@ body{
 }
 
 #score{
-    background-color: #9b8787af;
+    background-color: #fff;
     font-size: 24px;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -97,7 +97,7 @@ body{
 }
 
 .container{
-    background-color: #8b4137;
+    background-color: #37748b;
     position: absolute;
     top: 0;
     height: 100%;
@@ -113,7 +113,7 @@ body{
 }
 
 .container button{
-    background-color: #ce6534;
+    background-color: #6eaeb9;
     font-size: 18px;
     border: none;
     outline: none;
@@ -124,7 +124,7 @@ body{
 
 .container p{
     font-size: 32px;
-    color: #d12b2b;
+    color: #fff;
     margin-bottom: 10px;
 }
 

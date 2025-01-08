@@ -10,7 +10,7 @@ const wrapperEl = document.querySelector(".wrapper");
 const colorObj = {
     color1: { current: "#006400", new: "#00ff00" },
     color2: { current: "#800000", new: "#ff0000" },
-    color3: { current: "#0000b8", new: "#0000ff" },
+    color3: { current: "#0100b8", new: "#0000ff" },
     color4: { current: "#808000", new: "#ffff00" },
 };
 
