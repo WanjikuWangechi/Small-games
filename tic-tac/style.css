@@ -53,10 +53,10 @@ h3 {
   border-right: 0px;
 }
 .x-marker {
-  color: #eeda76;
+  color: #ffd500;
 }
 .o-marker {
-  color: #39abd9;
+  color: #04b8ff;
 }
 .modal-container {
   position: absolute;
@@ -85,7 +85,7 @@ h3 {
   font-size: 3em;
 }
 .end-game-modal span {
-  color: #eeda76;
+  color: #f8cf00;
   text-transform: uppercase;
   line-height: 1.5em;
   font-size: 1.3em;
