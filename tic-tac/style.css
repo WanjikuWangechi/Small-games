@@ -70,7 +70,7 @@ h3 {
   font-family: Raleway;
   text-align: center;
   background-color: hsla(30, 12%, 23%, 0.95);
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 1em;
   height: 100%;
   padding: 30px;
@@ -93,10 +93,10 @@ h3 {
 }
 .button-area span {
   display: inline-block;
-  background-color: hsla(30, 10%, 20%, 0.95);
+  background-color: hsla(31, 18%, 29%, 0.95);
   margin: 0.2em 0.2em 0 0.2em;
 }
 .button-area span:hover {
   cursor: pointer;
-  background-color: hsla(30, 10%, 30%, 0.95);
+  background-color: hsla(32, 17%, 69%, 0.95);
 }

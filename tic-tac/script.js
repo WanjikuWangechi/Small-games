@@ -66,7 +66,7 @@ function chooseMarker() {
 
 function endGameMessage(){
   var result = checkVictory(liveBoard);
-  $('.end-game-modal h3').text(result === 'win' ? 'You Lost' : "It's a draw");
+  $('.end-game-modal h3').text(result === 'win' ? 'Looser' : "It's a draw");
   
   $('.modal-container').css('display', 'block');
   $('.end-game-modal').css('display','block').removeClass('animated bounceOutDown').addClass('animated bounceInUp');
@@ -85,13 +85,14 @@ function endGameMessage(){
 }
 
 //GAMEPLAY
+
 function startNewGame() {
   liveBoard = [0, 0, 0, 0, 0, 0, 0, 0, 0];
   $('.square').text("").removeClass('o-marker x-marker');
   renderBoard(liveBoard);
   playerTakeTurn();
 }
-
+//PLAYER TURN
 function playerTakeTurn() {
   $('.square:empty').hover(function() {
     $(this).text(playerIcon).css('cursor', 'pointer');
@@ -113,6 +114,8 @@ function playerTakeTurn() {
   });
 }
 
+
+//AI TURN
 function aiTakeTurn() {
   miniMax(liveBoard, 'aiPlayer');
   liveBoard[AIMove] = 1;
@@ -187,7 +190,7 @@ function miniMax(state, player) {
   });
 
   //calculate and return the best score gathered from each of the available moves. track the best movein the AIMove variable
-
+  //AI MOVEMENT ACCORDING TO PLAYER////
   if (player === 'aiPlayer') {
     AIMove = moves[scores.indexOf(Math.max.apply(Math, scores))];
     return Math.max.apply(Math, scores);
