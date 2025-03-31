@@ -1,5 +1,3 @@
-
-
 *,
 *:after,
 *:before {
@@ -142,6 +140,6 @@ body {
 .cell {
   width: 20px;
   height: 20px;
-  display: inline-block;
+  display: block;
   float: left;
 }
